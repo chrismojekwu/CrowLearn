@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="./index.css">
+  </head>
+  <body>
+    <header>
+      <div class="logo-wrapper">
+        <img 
+          id="header-logo"
+          class="header-logo" 
+          src="https://kidslearn.fun/static/media/kidslearn-thanks.ffafdd275936c987ed4c.png"
+        />
+      </div>
+      <nav class="header-nav">
+        <a href="/shapes">
+          <button>
+            Shapes
+          </button>
+        </a>
+        <a href="/things">
+          <button>
+            Things
+          </button>
+        </a>
+        <a href="/animals">
+          <button>
+            Animals
+          </button>
+        </a>
+        <a href="/clothes">
+          <button>
+            Clothes
+          </button>
+        </a>
+      </nav>
+    </header>
+    <main>
+      <p>ANIMALS</p>
+    </main>
+    <script>
+        const handleLogo = () => {
+          window.location.href="/";
+        };
+        document.getElementById("header-logo").addEventListener("click", () => {
+          handleLogo();
+        });
+    </script>
+  </body>
+</html>
