@@ -4,4 +4,4 @@
 
 Compile with g++ main.cpp
 
-Start server with ./a.ouit command
+Start server with ./a.out command
